@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Hand {
     //attribut
     private int nombreCartes;
-    private ArrayList <Carte> listeCarte=new ArrayListe<Carte>;
+    private ArrayList <Carte> listeCarte=new ArrayList <Carte>();
 
 
     //constructeur
@@ -16,11 +16,11 @@ public class Hand {
 
     //methodes
 
-    public getCard(){
+    public void getCard(){
 
     }
     
-    public dropCard(){
+    public void dropCard(){
 
     }
 }

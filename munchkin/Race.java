@@ -16,16 +16,16 @@ public class Race extends Carte {
 
     //methode
 
-    public getNain(){
+    public void getNain(){
 
     }
 
-    public getElfe(){
+    public void getElfe(){
 
 
     }
 
-    public getHalfelin(){
+    public void getHalfelin(){
 
 
     }
