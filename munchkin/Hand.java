@@ -1,4 +1,4 @@
-package jeu;
+package munchkin;
 
 public class Hand {
     //attribut
@@ -19,6 +19,6 @@ public class Hand {
     }
     
     public dropCard(){
-        
+
     }
 }

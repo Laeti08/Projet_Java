@@ -1,4 +1,4 @@
-package jeu;
+package munchkin;
 
 import java.util.ArrayList;
 

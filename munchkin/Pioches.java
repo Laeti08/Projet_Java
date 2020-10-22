@@ -1,4 +1,4 @@
-package jeu;
+package munchkin;
 
 public class Pioches {
 
@@ -17,7 +17,7 @@ public class Pioches {
 
     }
 
-    
+
     //methodes
 
 
