@@ -1,4 +1,4 @@
-package munchkin;
+package jeu;
 
 import java.util.ArrayList;
 
@@ -12,19 +12,18 @@ public class Joueur{
     public int forceCombat;
     ArrayList <Equipement> equipement=new ArrayList<Equipement>;
     private int chanceFuite;
-    public String couleur;
     private String [] main;
 
     //constructeur
-    public Joueur(int n, String name,String s, int level, int fC,int cF, String c,String [] m){
-        numero=n;
+    public Joueur(int numbers, String name,String sex, int level, int fightingForce, ArrayList equipment, int chanceEscape,String [] hand){
+        numero=numbers;
         nom=name;
-        sexe=s;
+        sexe=sex;
         niveau=level;
-        forceCombat=fC;
-        chanceFuite=cF;
-        couleur=c;
-        main=m;
+        forceCombat=fightingForce;
+        equipement=equipment;
+        chanceFuite=chanceEscape;
+        main=hand;
     }
 
 }
