@@ -1,15 +1,17 @@
 package munchkin;
 
+import java.util.ArrayList;
+
 public class Pioches {
 
     //attributs
-    protected ArrayListe <Carte> piocheTresors=new ArrayListe <Carte>;
-    protected ArrayListe <Carte> piochePorte=new ArrayListe <Carte>;
-    protected ArrayListe <Carte> defausseTresors=new ArrayListe <Carte>;
-    protected ArrayListe <Carte> defaussePorte=new ArrayListe <Carte>;
+    protected ArrayList <Carte> piocheTresors=new ArrayList <Carte>;
+    protected ArrayList <Carte> piochePorte=new ArrayList <Carte>;
+    protected ArrayList <Carte> defausseTresors=new ArrayList <Carte>;
+    protected ArrayList <Carte> defaussePorte=new ArrayList <Carte>;
 
     //constructeur
-    public Pioches(ArrayListe pTresors,ArrayListe pPorte, ArrayListe dTresors, ArrayListe dPorte){
+    public Pioches(ArrayList pTresors,ArrayList pPorte, ArrayList dTresors, ArrayList dPorte){
         piocheTresors=pTresors;
         piochePorte=pPorte;
         defausseTresors=dTresors;

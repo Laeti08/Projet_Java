@@ -1,13 +1,15 @@
 package munchkin;
 
+import java.util.ArrayList;
+
 public class Hand {
     //attribut
     private int nombreCartes;
-    private ArrayListe<Carte> listeCarte=new ArrayListe<Carte>;
+    private ArrayList <Carte> listeCarte=new ArrayListe<Carte>;
 
 
     //constructeur
-    public Hand(int numberCard, ArrayListe listCard){
+    public Hand(int numberCard, ArrayList listCard){
         nombreCartes=numberCard;
         listeCarte=listCard;
     }
