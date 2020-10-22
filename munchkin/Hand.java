@@ -9,7 +9,7 @@ public class Hand {
 
 
     //constructeur
-    public Hand(int numberCard, ArrayList listCard){
+    public Hand(int numberCard, ArrayList <Carte> listCard){
         nombreCartes=numberCard;
         listeCarte=listCard;
     }

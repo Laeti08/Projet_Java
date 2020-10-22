@@ -15,7 +15,7 @@ public class Joueur{
     private String [] main;
 
     //constructeur
-    public Joueur(int numbers, String name,String sex, int level, int fightingForce, ArrayList equipment, int chanceEscape,String [] hand){
+    public Joueur(int numbers, String name,String sex, int level, int fightingForce, ArrayList <Carte> equipment, int chanceEscape,String [] hand){
         numero=numbers;
         nom=name;
         sexe=sex;
