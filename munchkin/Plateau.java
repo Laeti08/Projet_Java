@@ -1,77 +1,77 @@
-package jeu;
+package munchkin;
 
 import java.util.Random;
 
 public class Plateau{
 
     //attributs
-    public String joueurs;
-    public int pioches;
-    public int emplacements;
-    public int numeroTour;
-    public String phaseTour;
-    public String joueurActif;
+    public String player;
+    public int pile;
+    public int slots;
+    public int roundNumber;
+    public String roundPhase;
+    public String activePlayer;
 
-
+    
     //constructeur
-    public Plateau(String j,int p,int e, int nT, String pT, String jA){
-        joueurs=j;
-        pioches=p;
-        emplacements=e;
-        numeroTour=nT;
-        phaseTour=pT;
-        joueurActif=jA;
+    public Plateau(Joueur joueurs,int pioches,int emplacements, String joueurActif){
+        player = joueurs;
+        pile = pioches;
+        slots = emplacements;
+        activePlayer = joueurActif;
 
     }
 
     //méthodes
-    public display(){
+    
+    public void display(){
 
     }
 
 
-    public startTour(){
+    public void startTour(){
 
     }
 
-    public ouverture(){
+    public void ouverture(){
 
     }
 
-    public noCombat(){
+    public void noCombat(){
 
     }
 
-    public phaseCombat(){
+    public void phaseCombat(){
 
     }
 
-    public modifJoueur(){
+    public void modifJoueur(){
 
     }
 
     public int de(){
+
         Random jet = new Random();
         return jet.nextInt(6)+1;
     }
 
-    public echange(){
+    public void echange(){
 
     }
 
-    public endTour(){
+    public void endTour(){
 
     }
 
-    public chngementJoueurActif(){
+    public void chngementJoueurActif(){
 
     }
 
-    public chngementPhase(){
+    public void chngementPhase(){
 
     }
 
-    public tourSuivant(){
+    public void tourSuivant(){
 
     }
 }
