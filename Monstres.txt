@@ -1,0 +1,41 @@
+#Cartes Monstres
+#nom forceDeCombat niveaux tresors mortVivant? nomMethode
+
+Vamps...ires!?! 8 1 2 non metVampsires
+Horreur_non-euclidienne_Indicible 14 1 4 non metHorreur
+Tut-Tuuut-Ankh-Ammon 16 2 4 oui metTut
+Suceur_de_tete 8 1 2 non metSus
+Harpies(tes) 4 1 2 non metHarp
+Morpions 1 1 1 non metMorp
+Rene_Crophage_et_fils,_depanneurs_en_chirurgie 16 2 4 oui metCroph
+Fan_de_vampire 12 1 3 non metFan
+Plante_d'ornement 1 1 1 non metPlante
+Gobelin_estropie 1 1 1 non metGobelin
+Manticornithorynque 6 1 2 non metManti
+Balrog_charolais 12 2 5 non metBalrog
+Huissier 6 1 2 non metHuissier
+Troliste 10 1 3 non metTrol
+Hippogriffe 16 2 4 non metHippo
+Cephalopodzilla 18 2 4 non metCephalo
+3872_orques 10 1 3 non metOrques
+Nez_flottant 10 1 3 non metNez
+Escargots_sous_acide 4 1 2 non metEscargot
+Cheval_zombie 4 1 2 oui metCheval
+Succube_langue-de-belle-mere 12 1 3 non metSucc
+Grenouilles_volantes 2 1 1 non metGrenouilles
+Binoclard_hurleur 6 1 2 non metBinoc
+Bigfoot_alias_grand-pied 12 1 3 non metBigFoot
+Representant_en_assurances 14 1 4 non metRepr
+Octaedre_gelatineux 2 1 1 non metOct
+Golem_Fracasse 14 1 4 non metGolem
+Rat_muscle 1 1 1 non metRat
+Mucus_baveux 1 1 1 non metMucus
+Amazone 8 1 2 non metAmazone
+LepreuxChaun 4 1 2 non metLepreux
+Belvedere_sauvage 8 1 2 non metBelvedere
+Mr._Nonos 2 1 1 oui metNonos
+Poulet 2 1 1 non metPoulet
+Gerbausaure 6 1 2 non metGerbo
+Dragon_de_plutonium 20 2 5 non metDragon
+Pit_Bull 2 1 1 non metPitBull
+
