@@ -1,6 +1,7 @@
 package munchkin;
 
 import java.util.ArrayList;
+import munchkin.Carte;
 
 public class Pioches {
 
@@ -22,6 +23,30 @@ public class Pioches {
 
     //methodes
 
+    //Remplissages des pioches
+    public void setPioche(){
+        
+    
+    }
+
+    //Piocher une carte porte
+    public void getCardPorte(card){
+        if (phaseJeu=debutTour){
+            card=pPorte.get(0);
+            pPorte.remove(0);
+        }
+    }
+
+    //Piocher une carte trésors
+    public void getCardTresors(card,int nbCard){
+        for(int i=0;i<nbCard;i++){
+            
+            card=pTresors.get(i);
+            pTresors.remove(i);
+            
+        }
+        
+    }
 
     
 }
