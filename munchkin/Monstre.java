@@ -19,4 +19,155 @@ public class Monstre extends Carte {
         postFleeEffect = effetPostFuite;        
     }
 
+    //Methodes
+
+    public void metVampsires(){
+
+    }
+
+    public void metHorreur(){
+        
+    }
+
+    public void metTut(){
+        
+    }
+
+    public void metSus(){
+        
+    }
+
+    public void metHarp(){
+        
+    }
+
+    public void metMorp(){
+        
+    }
+
+    public void metCroph(){
+        
+    }
+
+    public void metFan(){
+        
+    }
+
+    public void metPlante(){
+        
+    }
+
+    public void metGobelin(){
+        
+    }
+
+    public void metManti(){
+        
+    }
+
+    public void metBalrog(){
+        
+    }
+
+    public void metHuissier(){
+        
+    }
+
+    public void metTrol(){
+        
+    }
+
+    public void metHippo(){
+        
+    }
+
+    public void metCephalo(){
+        
+    }
+
+    public void metOrques(){
+        
+    }
+
+    public void metNez(){
+        
+    }
+
+    public void metEscargot(){
+        
+    }
+
+    public void metCheval(){
+        
+    }
+
+    public void metSucc(){
+        
+    }
+
+    public void metGrenouilles(){
+        
+    }
+
+    public void metBinoc(){
+        
+    }
+
+    public void metBigFoot(){
+        
+    }
+
+    public void metRepr(){
+        
+    }
+
+    public void metOct(){
+        
+    }
+
+    public void metGolem(){
+        
+    }
+
+    public void metRat(){
+        
+    }
+
+    public void metMucus(){
+        
+    }
+
+    public void metAmazone(){
+        
+    }
+
+    public void metLepreux(){
+        
+    }
+
+    public void metBelvedere(){
+        
+    }
+
+    public void metNonos(){
+        
+    }
+
+    public void metPoulet(){
+        
+    }
+
+    public void metGerbo(){
+        
+    }
+
+    public void metDragon(){
+        
+    }
+
+    public void metPitBull(){
+        
+    }
+
+
 }
