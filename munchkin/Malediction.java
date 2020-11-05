@@ -19,14 +19,17 @@ public class Malediction extends Carte {
     public void metPerteNiveau(int nombreAPerdre){
         //le joueur perd le nombre de niveau indiqué
         //il y a 2 cartes de perte de 1 niveau
+        Joueur.niveau-=nombreAPerdre;
     }
 
     public void metCanard(){
         //le joueur perd 2 niveaux
+        Joueur.niveau-=2;
     }
 
     public void metGrossePerte(){
         //le joueur choisi un gros objet à défausser
+
     }
 
     public void metPetitePerte(){
@@ -36,6 +39,9 @@ public class Malediction extends Carte {
 
     public void metPerteChaussures(){
         //le joueur perd ses chaussures s'il en a
+        if (Equipement.objectType=="chaussure"){
+
+        }
     }
 
     public void metPerteChapeau(){
@@ -58,6 +64,7 @@ public class Malediction extends Carte {
 
     public void metCommunMortel(){
         //le joueur perd sa race. Si il avait sang mêlé, il la perd aussi
+        
     }
 
     public void metChangementClasse(){
@@ -75,6 +82,7 @@ public class Malediction extends Carte {
 
     public void metpouletSurLaTete(){
         //-1 à tous les jets de dé. Tout ce qui fait perdre le couvre chef (malédiction ou incident fâcheux) retire aussi le poulet.
+        
     }
 
     public void metMirroirPerfide(){
@@ -85,6 +93,7 @@ public class Malediction extends Carte {
     public void metChangSexe(){
         // le joueur change de sexe de façon permanente.
         //il subit -5 à son prochain combat
+        Joueur.forceCombat-=5
     }
 
     public void metPerte2Cartes(){

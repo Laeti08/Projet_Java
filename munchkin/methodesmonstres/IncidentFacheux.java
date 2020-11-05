@@ -5,6 +5,7 @@ public class IncidentFacheux(){
 
     public static void metPitBull(){
         //-2 niveaux
+        Joueur.niveau-=2;
     }
 
     public static void metDragon(){
@@ -17,14 +18,17 @@ public class IncidentFacheux(){
 
     public static void metPoulet(){
         //-1 niveau
+        Joueur.niveau-=1;
     }
 
     public static void metNonos(){
         // -2 niveaux
+        Joueur.niveau-=2;
     }
 
     public static void metBelvedere(){
         //-3 niveaux
+        Joueur.niveau-=3;
     } 
 
     public static void metLepreux(){
@@ -33,14 +37,28 @@ public class IncidentFacheux(){
 
     public static void metAmazone(){
         //perte des classes. Si pas de Classe, -3 niveaux
+        if (Joueur.Classe==empty){
+            Joueur.niveau-=3;
+        }
+        else{
+
+        }
+        
     }
 
     public static void metMucus(){
        //perte des chaussures. Si pas de chaussures, -1 niveau
+       if (){
+        Joueur.niveau-=1;
+    }
+    else{
+        
+    }
     }
 
     public static void metRat(){
         //-1 niveau
+        Joueur.niveau-=1;
     }
 
     public static void metGolem(){
@@ -65,14 +83,22 @@ public class IncidentFacheux(){
 
     public static void metGrenouilles(){
         //-2 niveaux
+        Joueur.niveau-=2;
     }
 
     public static void metSucc(){
         //-2 niveaux (3 pour les elfes)
+        if(Joueur.race=="Elfe"){
+            Joueur.niveau-=3;
+        }
+        else{
+            Joueur.niveau-=2;
+        }
     }
 
     public static void metCheval(){
         // -2 niveaux
+        Joueur.niveau-=2;
     }
 
     public static void metEscargot(){
@@ -86,6 +112,14 @@ public class IncidentFacheux(){
 
     public static void metOrques(){
         //jet de dés : mort sur 1 ou 2, perte du nombre de niveau indiqué par le dé sinon
+        int lancer=de();
+        if (lancer==1 || lancer==2){
+
+        }
+        else{
+            Joueur.niveau-=lancer;
+        }
+
     }
 
     public static void metCephalo(){
@@ -114,6 +148,7 @@ public class IncidentFacheux(){
 
     public static void metGobelin(){
         //-1 niveau
+        Joueur.niveau-=1;
     }
 
     public static void metPlante(){
@@ -122,10 +157,12 @@ public class IncidentFacheux(){
 
     public static void metFan(){
         // -3 niveaux
+        Joueur.niveau-=3;
     }
 
     public static void metCroph(){
         // niveau = 1
+        Joueur.niveau==1;
     }
 
     public static void metMorph(){
@@ -134,10 +171,12 @@ public class IncidentFacheux(){
 
     public static void metHarp(){
         //-2 niveaux
+        Joueur.niveau-=2;
     }
 
     public static void metSus(){
         //-1 niveau
+        Joueur.niveau-=1;
         //perte du couvre-chef
     }
 

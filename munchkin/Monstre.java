@@ -232,7 +232,7 @@ public class Monstre extends Carte {
     }
 
     public void metGolem(){
-        nom+="Golem_Fracasse0;"
+        nom+="Golem_Fracasse"
         forceDeCombat+=14;
         nombreNiveaux+=1;
         nombreTresors+=4;
