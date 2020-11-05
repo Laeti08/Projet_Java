@@ -1,5 +1,5 @@
 #Cartes Monstres
-#nom forceDeCombat niveaux tresors mortVivant? nomMethode
+#String nom int forceDeCombat int nombreTresors int nombreNiveauxn boolean mortVivant String nomMethode
 
 Vamps...ires!?! 8 1 2 non metVampsires
 Horreur_non-euclidienne_Indicible 14 1 4 non metHorreur

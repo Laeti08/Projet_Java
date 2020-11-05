@@ -11,7 +11,7 @@ public class Monstre extends Carte {
     Map<String,Integer> postFleeEffect;
     boolean mortVivant;
 
-    public Monstre(String nom, Map<String,Integer> modifsAttributs, String emplacement, String phaseJeu, int valeurOr, int forceDeCombat, int nombreTresors, int nombreNiveaux, Map<String,Integer> effetPreFuite, Map<String,Integer> effetPostFuite) {
+    public Monstre(String nom, String emplacement, String phaseJeu, int valeurOr, int forceDeCombat, int nombreTresors, int nombreNiveauxn, boolean mortVivant ) {
         super(nom, modifsAttributs, emplacement, phaseJeu, valeurOr);
         combatForce = forceDeCombat;
         treasures = nombreTresors;
