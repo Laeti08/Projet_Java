@@ -10,7 +10,7 @@ public class Joueur{
     public String sexe;
     public int niveau;
     public int forceCombat;
-    ArrayList <Equipement> equipement=new ArrayList<Equipement>;
+    ArrayList <Equipement> equipement=new ArrayList<Equipement>();
     private int chanceFuite;
     private String [] main;
 
@@ -25,5 +25,10 @@ public class Joueur{
         chanceFuite=chanceEscape;
         main=hand;
     }
+
+    //Méthodes
+
+
+
 
 }
